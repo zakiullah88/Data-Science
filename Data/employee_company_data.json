@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Employee and Company Data",
+    "last_updated": "2023-09-30"
+  },
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "position": "Software Engineer",
+      "salary": 75000,
+      "email": "john.doe@techcorp.com",
+      "hireDate": "2020-05-15",
+      "manager": "Michael Brown",
+      "address": {
+        "street": "123 Main St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipcode": "94101"
+      }
+    },
+    {
+      "id": 2,
+      "firstName": "Alice",
+      "lastName": "Smith",
+      "position": "Data Analyst",
+      "salary": 60000,
+      "email": "alice.smith@techcorp.com",
+      "hireDate": "2019-08-22",
+      "manager": "Michael Brown",
+      "address": {
+        "street": "456 Elm St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipcode": "94102"
+      }
+    },
+    {
+      "id": 3,
+      "firstName": "Bob",
+      "lastName": "Johnson",
+      "position": "Product Manager",
+      "salary": 85000,
+      "email": "bob.johnson@techcorp.com",
+      "hireDate": "2018-03-10",
+      "manager": "Sarah Williams",
+      "address": {
+        "street": "789 Oak St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipcode": "94103"
+      }
+    },
+    {
+      "id": 4,
+      "firstName": "Emily",
+      "lastName": "Wilson",
+      "position": "UX Designer",
+      "salary": 70000,
+      "email": "emily.wilson@techcorp.com",
+      "hireDate": "2021-02-28",
+      "manager": "Sarah Williams",
+      "address": {
+        "street": "101 Pine St",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipcode": "94104"
+      }
+    }
+  ],
+  "departments": {
+    "engineering": ["John Doe", "Alice Smith"],
+    "product_management": ["Bob Johnson", "Emily Wilson"],
+    "design": ["Emily Wilson"]
+  },
+  "company_info": {
+    "name": "TechCorp",
+    "location": "San Francisco, CA",
+    "foundedYear": 2000,
+    "ceo": "Sarah Williams"
+  },
+  "office_locations": {
+    "san_francisco_hq": {
+      "street": "500 Tech Plaza",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipcode": "94105"
+    },
+    "new_york_branch": {
+      "street": "123 Wall St",
+      "city": "New York",
+      "state": "NY",
+      "zipcode": "10005"
+    }
+  },
+  "benefits": {
+    "health_insurance": true,
+    "retirement_plan": true,
+    "vacation_days": 20
+  }
+}
